@@ -5,7 +5,7 @@ This repository is dedicated to building a Python Record Linkage Machine Learnin
 
 ## Repo Structure
 The repository contains the following main folders and their contents:
-- `./Data/Synthetic Gold`: Contains several parquet folders of different data from the project "Synthetic-Gold."
+- `./Data/Synthetic Gold`: Contains several parquet folders of different data from the project "Synthetic-Gold." For more information on this project, see the following [link to that repo](https://github.com/DOH-PJG1303/Synthetic-Gold)
 - `./Scripts`: Contains two sub-folders:
   - `Compile Training Data`: Includes 4 scripts to transform the raw data into an ML training dataset.
   - `Train Model`: Currently contains 1 file related to training the ML model, with more to be added in the future.
