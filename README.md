@@ -22,10 +22,16 @@ Download and install Visual Studio Code (VS Code) from the [official website](ht
 ### Downloading and Configuring Git
 1. Download Git from the [official website](https://git-scm.com/downloads).
 2. Install Git and integrate it with VS Code by following [these instructions](https://code.visualstudio.com/docs/editor/versioncontrol#_git-support).
+3. **Download and Install Git LFS**: Before cloning the repository, install Git LFS. This ensures that the large files tracked by Git LFS are handled correctly when the repository is cloned. Instructions for installation can be found on the [official Git LFS site](https://git-lfs.github.com/).
+    * when installing, make sure to note the path of the folder download.  You should add this path to your system environment variables PATH.
 
 ### Cloning the Github Repository
-1. Open VS Code terminal (CMD terminal).
-2. Clone the repository by running:
+1. Open VS Code.  Open terminal (top panel) (CMD terminal).
+2. Configure git-lfs by running:
+```CMD
+git lfs install
+```
+3. Clone the repository by running:
 
 ```CMD
 git clone https://github.com/DOH-PJG1303/Python-Record-Linkage.git
